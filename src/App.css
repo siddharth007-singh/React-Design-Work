@@ -1,11 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,19 +6,202 @@
   }
 }
 
+.App-header .table-head th{
+  color: black;
+}
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.dark-theme{
+  background-color: #191d28;
+  color:white;
+}
+
+.dark-theme .table-head th{
   color: white;
 }
 
+.dark-theme .average-heading{
+  color: white;
+}
+
+.dark-theme .average-header-subHeading{
+  color: white;
+}
+
+.App-header .average-subText{
+  color: black;
+}
+
+.maintext{
+  color: #17a2b8;
+  font-size: 60px;
+}
+.subtext{
+  font-size: 15px;
+  margin-top: -10px;
+  padding: 0px;
+  font-family: Oswald, sans-serif;
+}
+.subtexts{
+  color: #17a2b8;
+}
+.midbtn{
+  background-color: #2e3241;
+  color: #fff;
+  border: 0;
+}
+.btnsocial{
+  background-color: #17a2b8;
+  color: white;
+}
+.switch{
+  position: absolute;
+  left: 280px;
+  bottom: 75px;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+}
+.header{
+  margin-top: 10px;
+  padding: 20px 30px 0px;
+}
+.align-items-center {
+  align-items: center!important;
+}
+.justify-content-around {
+  justify-content: space-around!important;
+}
+.d-flex {
+  display: flex!important;
+}
+.average-header-maintext{
+  color: #17a2b8;
+  font-weight: 500;
+  font-size: 40px;
+}
+.average-block {
+  padding-bottom: 30px;
+}
+.average-heading {
+  font-weight: 400;
+  font-size: 80px;
+}
+.table{
+  font-size: 20px;
+}
+.table-head{
+  font-family: Oswald;
+  font-size: 40px;
+  opacity: .45;
+  letter-spacing: 1px;
+}
 .App-link {
   color: #61dafb;
+}
+.App-header .des {
+  background-color:lightgray;
+  width: 10px;
+  font-weight:600;
+  font-size: 20px;
+  color: black;
+}
+
+.dark-theme .des{
+  background-color: #464953;
+  color: white;
+  width: 10px;
+  font-weight:600;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 500px){
+  .mobile-header{
+    text-align: center;
+  }
+  .switch{
+    position: absolute;
+    top:10px;
+    left: 350px;
+  }
+  .set{
+    margin-top: 40px;
+  }
+  .set h4{
+    font-size: 15px;
+  }
+  .icon{
+    font-size: 40px;
+  }
+  .average-heading{
+    font-weight: 200;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .average-block {
+    padding-bottom: 10px;
+  }
+  .average-header-maintext {
+    font-size: 18px;
+  }
+  .average-header-subHeading{
+    font-size: 8px;
+  }
+  .average-subText{
+    font-size: 8px;
+    margin-top: 10px;
+  }
+  .table{
+    font-size: 10px;
+  }
+  .table-head{
+    font-family: Oswald;
+    font-size: 15px;
+    opacity: .45;
+    letter-spacing: 1px;
+  }
+  .table-head h4{
+    font-family: Oswald;
+    font-size: 15px;
+    opacity: .45;
+    letter-spacing: 1px;
+  }
+  .des {
+    background-color: #2e3241;
+    border-radius: 25%;
+    font-weight:900;
+    font-size: 20px;
+  }
+  .des td{
+    font-size: 15px;
+    height:5px
+  }
+  .sides{
+    margin-top: -50px;
+  }
+  .secbtn{
+    margin-left: 80px;
+  }
+  .drop1{
+    position: relative;
+    left: 100px;
+  }
+  .drop2{
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+  }
+  .drop3{
+    position: relative;
+    left: 300px;
+    bottom: 80px;
+  }
+  .adjust{
+    position: relative;
+    right: 40px;
+  }
 }
 
 @keyframes App-logo-spin {
